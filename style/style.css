@@ -16,9 +16,9 @@ ul{
     list-style: none;
 }
 
-.debug{
+/* .debug{
     border: 1px solid red;
-}
+} */
 
 :root {
 	--color-nav: #0084fd;
@@ -224,6 +224,8 @@ a{
 .tetx-little{
     font-size: smaller;
 }
+
+
 /* nav */
 .logo-img{
     width: 20px;

@@ -1,0 +1,165 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    font-family: "PT Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+:root {
+	--color-nav: #0084fd;
+	--color-light-blue: #b5ddff;
+	--color-purple: #9792e4;
+	--color-footer: #333333;
+	--color-free: #fbc25f;
+}
+
+/* general */
+header{
+    width: 100%;
+    background-color: var(--color-nav);
+    position: fixed;
+    top: 0;
+    left: 0;
+   padding: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: var(--color-nav);
+    display: none;
+}
+
+header nav{
+    position: relative;
+}
+
+header nav a{
+    display: block;
+    padding: 5px 10px;
+    width: 100%;
+    
+}
+
+header nav:hover ul{
+    display: block;
+}
+
+footer{
+    background-color: var(--color-footer);
+}
+ main{
+    padding-top:70px;
+ }
+section{
+    scroll-margin-top:75px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+/* id */
+#hero{
+    width: 100%;
+}
+/* utilty */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-purple{
+    background-color: var(--color-purple)
+}
+
+.icon{
+    font-size: 3em;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.text-content{
+
+}
+/* card utility */
+.card{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card-blue{
+    background-color: var(--color-light-blue);
+}
+
+.card-left{
+
+}
+
+.card-right{
+    
+}
+
+.card-white{
+    color: black;
+    background-color: white;
+}
+
+.card-white h2{
+    color: var(--color-purple);
+}
+
+/* text */
+.text-center{
+    text-align: center;
+}
+
+.text-blue{
+    color: var(--color-nav);
+}
+
+.text-white{
+    color: white;
+}
+/* nav */
+.logo-img{
+    width: 20px;
+}
+
+/* flex utility */
+
+.d-flex{
+    display: flex;
+    
+}
+
+.space-b{
+    justify-content: space-between;
+}

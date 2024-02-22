@@ -1,0 +1,35 @@
+@media  screen and (min-width:1200px){
+    header nav:hover ul{
+        display: flex;
+    }
+    header nav ul{
+        position: static;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    i.fa-solid.fa-bars{
+        display:none;
+    }
+
+    #features .container > .card{
+        display: flex;
+    }
+
+    .text-content{
+        width: 60%;
+        padding-bottom: 20px;
+    }
+
+    .img-content{
+        width: 40%;
+    }
+
+    .img-content img{
+        width: 300px;
+    }
+}

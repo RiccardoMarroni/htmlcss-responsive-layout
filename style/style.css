@@ -108,6 +108,25 @@ a{
 .text-content{
 
 }
+
+.padding-b{
+    padding-bottom: 30px;
+}
+
+.margin-t{
+    margin-top: 20px;
+}
+
+.margin-b{
+    margin-bottom: 20px;
+}
+
+.testimonial-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 /* card utility */
 .card{
     width: 100%;
@@ -136,7 +155,18 @@ a{
     color: var(--color-purple);
 }
 
+.arrow{
+    width: 40px;
+    height: 40px;
+    margin: 20px 110px;
+    border-radius: 50%;
+    line-height: 40px;
+}
+    
+   
+
 /* text */
+
 .text-center{
     text-align: center;
 }
@@ -147,6 +177,10 @@ a{
 
 .text-white{
     color: white;
+}
+
+.text-purple{
+    color: var(--color-purple);
 }
 /* nav */
 .logo-img{

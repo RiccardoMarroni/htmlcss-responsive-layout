@@ -91,6 +91,7 @@ a{
 .container{
     width: 80%;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .section-purple{
@@ -135,7 +136,7 @@ a{
 .btn-more{
     display: inline-block;
     background-color: var(--color-purple);
-    width: 100%;
+    padding: 0.5em 2em;
     border-radius: 15px;
     color: white;
     margin-right: 10%;
@@ -164,6 +165,7 @@ a{
     width: 100%;
     margin-bottom: 10px;
     border-radius: 20px;
+    padding: 1em;
 }
 
 .card-blue{

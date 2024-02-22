@@ -1,6 +1,7 @@
 @media  screen and (min-width:768px){
     .container{
-        max-width: 768px;
+        max-width: 1000px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -8,12 +9,16 @@
         display: flex;
         gap: 10px;
     }
+
+    #benefits .container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #benefits .card{
+        width: calc(50% - 30px)
+    }
 }
-
-
-
-
-
 
 
 @media  screen and (min-width:1200px){
